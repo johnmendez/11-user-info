@@ -4,3 +4,32 @@
 // $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 // @import 'font-awesome';
 @import 'box-sizing';
+
+$c-banner: #91be8e;
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.section {
+  padding: 1rem;
+}
+
+.user-info {
+  padding: 1reml
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(#000, 0.4);
+
+  &__banner {
+    background: $c-banner;
+  }
+
+  &__pic {
+    position: relative;
+
+    img {
+      position: absolute;
+      margin: 0 auto;
+    }
+  }
+}
